@@ -1,0 +1,89 @@
+    @media all and (max-width: 1200px) {
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Lato;
+            font-size: 20px;
+        }
+        .flex {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        /*    nawigacja */
+        .menu label,
+        .menu input {
+            display: inline-block;
+            width: 100%;
+            padding: 20px;
+        }
+        #main_nav {
+            background-color: #fff;
+            position: fixed;
+            width: 100%;
+            color: #1ac056;
+            text-align: right;
+            z-index: 1;
+        }
+        .nav_ul {
+            display: none;
+        }
+        .nav_ul a {
+            display: block;
+            color: #1ac056;
+            text-decoration: none;
+            padding: 20px;
+        }
+        .nav_ul a:hover {
+            color: black;
+        }
+        input:checked~.nav_ul {
+            display: flex;
+            max-height: 100%;
+            flex-wrap: wrap;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+        #menu {
+            display: none;
+        }
+        /*    header*/
+        .container1 h1 {
+            font-size: 100px;
+        }
+        .container1 h2 {
+            font-size: 30px;
+        }
+        /*about*/
+        .container2 {
+            flex-direction: column;
+        }
+        #portrait img {
+            width: 50%;
+        }
+        /*    skills*/
+        .container3 {}
+        .container3 figure {
+            flex-basis: 50%;
+            margin: 10px 0;
+            display: flex;
+            flex-direction: column;
+        }
+        .container3 figure img {
+            display: inline-block;
+            margin: 0 auto;
+        }
+        /*        portfolio*/
+        #portimg1 {
+            flex-basis: 50%;
+        }
+        #portimg2 {
+            flex-basis: 50%;
+        }
+        #portimg3 {
+            flex-basis: 100%;
+        }
+        .container4 {
+            height: 500px;
+        }
+    }

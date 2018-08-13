@@ -1,0 +1,307 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato';
+}
+
+.menu input,
+.menu label {
+    display: none;
+}
+
+section {
+    background-color: #f9fcfe;
+}
+
+#main_nav {
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+}
+
+.nav_ul {
+    text-align: right;
+    color: #1ac056;
+}
+
+.nav_ul li {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.nav_ul a {
+    display: block;
+    color: #1ac056;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.nav_ul a:hover {
+    color: black;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#Name {
+    background-image: url("../portfolio-grafiki/img/header-background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+
+.container1 h1,
+.container1 h2 {
+    font-family: "Roboto";
+    font-weight: 100;
+}
+
+.container1 h1 {
+    font-size: 120px;
+}
+
+.container1 h2 {
+    font-size: 36px;
+}
+
+#surname {
+    font-weight: 300;
+}
+
+span {
+    color: #1ac056;
+}
+
+h3 {
+    padding: 60px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+#about {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container2 {
+    margin-bottom: 8px;
+}
+
+figcaption {
+    text-align: center;
+    margin: 20px 0;
+    font-weight: 100;
+}
+
+#portrait img {
+    width: 50%;
+    transform: translateX(50%);
+    border: solid 15px white;
+}
+
+#portrait {
+    flex-basis: 50%;
+    padding: 20px;
+}
+
+.container2 p {
+    flex-basis: 50%;
+    padding: 20px 80px;
+    font-weight: 100;
+}
+
+#skills p {
+    text-align: center;
+    padding: 20px 100px;
+    font-weight: 100;
+}
+
+.container3 {
+    justify-content: center;
+}
+
+.container3 figure {
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+.container4 {
+    height: 300px;
+    margin: 0 100px;
+    justify-content: center;
+    background-color: aliceblue;
+    margin-bottom: 100px;
+}
+
+.img {
+    width: 33%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#portimg1 {
+    background-image: url(../portfolio-grafiki/img/portfolio1.jpg);
+}
+
+#portimg2 {
+    background-image: url(../portfolio-grafiki/img/portfolio2.jpg);
+}
+
+#portimg3 {
+    background-image: url(../portfolio-grafiki/img/portfolio4.jpg);
+}
+
+.inner {
+    text-align: center;
+    height: 100%;
+    background-color: rgba(15, 91, 139, 0.5);
+    opacity: 0;
+    transition-duration: 0.4s;
+    transition-timing-function: linear;
+    padding: 10px;
+}
+
+.inner:hover {
+    opacity: 1;
+    color: white;
+}
+
+.inn {
+    padding: 20px;
+    height: 100%;
+    border: 1px solid rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    overflow: scroll;
+}
+
+.fas,
+.fa-link {
+    font-size: 20px;
+    color: white;
+}
+
+.project_desc {
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.fas:hover,
+.fa-link:hover {
+    color: #1ac056;
+}
+
+.container5 {
+    background-color: #213b50;
+    text-align: left;
+    padding: 30px 60px;
+    color: white;
+}
+
+.contact {
+    margin-top: 50px;
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-weight: 300;
+}
+
+.footer_header {
+    font-size: 36px;
+}
+
+address a {
+    color: white;
+}
+
+address a:hover {
+    color: #1ac056;
+}
+
+.socialmedia {
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+}
+
+.socialmedia a {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border: solid 1px white;
+    margin-right: 20px;
+    color: white;
+}
+
+.socialmedia a:hover {
+    color: #1ac056;
+    border: solid 1px #1ac056;
+}
+
+.form {
+    width: 50%;
+}
+
+form {
+    width: 100%;
+    padding: 50px 0px 50px 50px;
+}
+
+input {
+    height: 30px;
+}
+
+input,
+textarea {
+    width: 100%;
+    margin: 5px 0;
+    background-color: #3f6898;
+    border: none;
+    font-size: 14px;
+    padding: 10px;
+    font-weight: 300;
+    color: white;
+}
+
+input[type="submit"] {
+    width: 20%;
+    float: right;
+    background-color: #1ac056;
+    color: white;
+    border: 2px solid white;
+    height: 50px;
+}
+
+.clear {
+    clear: both;
+}
+
+input[type="submit"]:hover {
+    background-color: black;
+    cursor: pointer;
+}
+
+.copyright {
+    background-color: #25456a;
+    color: white;
+    display: block;
+}
+
+.copyright p {
+    width: 90%;
+    margin: 0px auto;
+    padding: 5px 0;
+    font-weight: 100;
+}
